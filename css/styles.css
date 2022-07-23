@@ -1,0 +1,209 @@
+body {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+h2 {
+  font-family: 'Mochiy Pop One', sans-serif;
+}
+
+h3 {
+  font-weight:bolder;
+}
+
+hr {
+    margin : 50px auto 0 ;
+    border-color: #A2B5BB;
+    border-width: 8px;
+    border-style: dotted;
+    border-bottom-style: none;
+    height: 0;
+    width: 5%;
+}
+
+/* home page section */
+
+#home {
+  background-color: #fff;
+  padding: 2% 15% 7%;
+}
+
+.navbar {
+  text-align: right;
+}
+
+.nav-item {
+  margin: 0 16px;
+  font-size: 1.2rem;
+}
+
+.big-heading {
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 75px;
+  padding-top: 60px;
+  margin: 50px 30px 20px;
+  text-align: left;
+}
+
+.sub-heading {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  margin-left: 30px;
+  font-size: 50px;
+  font-weight: normal;
+  margin-bottom: 16px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.para {
+  text-align: left;
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.title-img {
+  height: 300px;
+  width: 300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* About section */
+#about {
+  background-color: black;
+  color: #F1F1F1;
+  padding: 5% 15%;
+}
+
+.ProfPic-img{
+  height: 200px;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+/* Work section */
+#work {
+  margin: auto;
+  line-height: 2;
+  padding: 5% 0;
+  width: 50%;
+}
+
+#testimonials-carousel {
+  margin-top: 50px;
+}
+
+.card {
+  margin: 40px;
+}
+
+.skills-img {
+  height: 300px;
+  width: 300px;
+  text-align: center;
+  margin : 50px auto 30px;
+}
+
+.card-title {
+  margin-bottom: 2rem;
+}
+
+/* Tools section */
+#tools {
+  background-color: black;
+  padding: 5% 15%;
+  color: #fff;
+  width: 100%;
+}
+
+.test-img {
+  color: black;
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+}
+
+/* Contact section */
+#contact{
+  background-color: #fff;
+  color: black;
+  margin : auto;
+}
+
+.contact-me {
+  padding: 7% 15%;
+  line-height: 2;
+}
+
+.contact-heading {
+  margin-bottom: 30px;
+}
+
+/* footer section */
+#footer {
+  padding: 5% 10%;
+  text-align: center;
+  line-height: 3.5;
+  background-color: black;
+}
+
+.foot-img {
+  margin: 0 20px;
+  color: #fff;
+}
+
+.copyright {
+  color: #8f8f8f ;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 0.75rem;
+  font-weight: lighter;
+  margin-top: 32px;
+}
+
+@media (max-width : 800px ) {
+
+  .nav-item {
+    font-size: 1rem;
+  }
+
+  .big-heading {
+    font-size: 40px;
+    margin-top : 20px;
+    padding-top : 20px;
+  }
+
+  .sub-heading {
+    font-size: 25px;
+  }
+
+  .para {
+    font-size: 16px;
+  }
+
+  .title-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #work {
+    width : 80%;
+  }
+
+  #testimonials-carousel {
+    margin-top: 20px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+}
