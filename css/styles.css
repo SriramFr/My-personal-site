@@ -168,6 +168,10 @@ hr {
 }
 
 @media (max-width : 800px ) {
+  
+  #home {
+    padding: 2% 7% 7%;
+  }
 
   .nav-item {
     font-size: 1rem;
