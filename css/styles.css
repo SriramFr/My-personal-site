@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 p {
@@ -8,11 +8,12 @@ p {
 }
 
 h2 {
-  font-family: 'Mochiy Pop One', sans-serif;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-weight: bolder;
 }
 
 h3 {
-  font-weight:bolder;
+  font-weight: lighter;
 }
 
 hr {
@@ -30,6 +31,7 @@ hr {
 #home {
   background-color: #fff;
   padding: 2% 15% 7%;
+  color: #000000;
 }
 
 .navbar {
@@ -77,7 +79,7 @@ hr {
 
 /* About section */
 #about {
-  background-color: black;
+  background-color: #000000;
   color: #F1F1F1;
   padding: 5% 15%;
 }
@@ -88,12 +90,26 @@ hr {
   margin-bottom: 30px;
 }
 
+.about-div {
+  padding-top: 30px;
+}
+
+.check-circle {
+  color : #fff;
+  margin: 1rem auto;
+}
+
+.check-circle:hover {
+  color: #DFF6FF;
+}
+
 /* Work section */
 #work {
   margin: auto;
   line-height: 2;
-  padding: 5% 0;
-  width: 50%;
+  padding: 5% 0%;
+  background-color: #fff;
+  width: 60%;
 }
 
 #testimonials-carousel {
@@ -117,17 +133,21 @@ hr {
 
 /* Tools section */
 #tools {
-  background-color: black;
+  background-color: #000000;
   padding: 5% 15%;
   color: #fff;
   width: 100%;
 }
 
 .test-img {
-  color: black;
   width: 250px;
   height: 250px;
   margin: 20px;
+  text-align: center;
+}
+
+#testimonials-carousel {
+  text-align: center;
 }
 
 /* Contact section */
@@ -151,12 +171,16 @@ hr {
   padding: 5% 10%;
   text-align: center;
   line-height: 3.5;
-  background-color: black;
+  background-color: #000000;
 }
 
 .foot-img {
   margin: 0 20px;
   color: #fff;
+}
+
+.foot-img:hover {
+  color: #DFF6FF;
 }
 
 .copyright {
@@ -168,7 +192,7 @@ hr {
 }
 
 @media (max-width : 800px ) {
-  
+
   #home {
     padding: 2% 7% 7%;
   }
@@ -178,7 +202,7 @@ hr {
   }
 
   .big-heading {
-    font-size: 30px;
+    font-size: 40px;
     margin-top : 20px;
     padding-top : 20px;
   }
