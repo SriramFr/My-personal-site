@@ -1,6 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  text-align: center;
   font-family: 'Ubuntu', sans-serif;
+  background-color: #0e1630;
 }
 
 p {
@@ -10,45 +14,45 @@ p {
 h2 {
   font-family: 'Montserrat-Black', sans-serif;
   font-weight: bolder;
+  color: #00FFAB;
+  text-align: center;
 }
 
 h3 {
   font-weight: lighter;
 }
 
-hr {
-    margin : 50px auto 0 ;
-    border-color: #A2B5BB;
-    border-width: 8px;
-    border-style: dotted;
-    border-bottom-style: none;
-    height: 0;
-    width: 5%;
+h5:hover{
+  color: #14C38E;
 }
 
 /* home page section */
 
 #home {
-  background-color: #fff;
-  padding: 2% 15% 7%;
-  color: #000000;
+  background-color: #0e1630;
+  padding: 2% 10% 7%;
 }
 
 .navbar {
   text-align: right;
 }
 
-.nav-item {
+.nav-link {
   margin: 0 16px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #00FFAB !important;
 }
 
 .big-heading {
   font-family: 'Mochiy Pop One', sans-serif;
   font-size: 75px;
-  padding-top: 60px;
+  padding-top: 100px;
   margin: 50px 30px 20px;
   text-align: left;
+  color: #00FFAB;
 }
 
 .sub-heading {
@@ -58,103 +62,110 @@ hr {
   font-size: 50px;
   font-weight: normal;
   margin-bottom: 16px;
+  color: #fff;
 }
 
 .pro {
-  text-decoration: underline;
+  color: #00FFAB;
 }
 
 .para {
   text-align: left;
   margin-left: 30px;
   font-size: 20px;
+  color: #F1F1F1;
 }
 
 .title-img {
-  height: 300px;
-  width: 300px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  max-width: 90%;
 }
 
 /* About section */
 #about {
-  background-color: #000000;
+  background-color: #0e1630;
   color: #F1F1F1;
-  padding: 5% 15%;
+  padding: 2% 10%;
+  margin-left: 30px;
+}
+
+.hello-text {
+  text-align: left;
 }
 
 .ProfPic-img{
-  height: 200px;
-  width: 200px;
-  margin-bottom: 30px;
+  max-width: 70%;
+  margin-top: 35px;
 }
 
-.about-div {
-  padding-top: 30px;
+.about-skills {
+  text-align: center;
 }
 
-.check-circle {
-  color : #fff;
+.about-imgs {
   margin: 1rem auto;
+  color: #00FFAB;
 }
 
-.check-circle:hover {
-  color: #DFF6FF;
+.about-imgs:hover {
+  color: #14C38E;
 }
 
 /* Work section */
 #work {
   margin: auto;
   line-height: 2;
-  padding: 5% 0%;
-  background-color: #fff;
-  width: 60%;
+  padding: 5% 10%;
+  background-color: #0e1630;
+  color: #F1F1F1;
 }
 
-#testimonials-carousel {
-  margin-top: 50px;
+.work-div {
+  padding : 2% 2%;
 }
 
-.card {
-  margin: 40px;
+.work-text-div {
+  padding-top : 80px;
 }
 
-.skills-img {
-  height: 250px;
-  width: 250px;
-  text-align: center;
-  margin : 50px auto 30px;
+.work-title {
+  color : #00FFC6;
 }
 
-.card-title {
-  margin-bottom: 2rem;
+.work-img {
+  max-width: 100%;
+  text-align: right;
 }
 
 /* Tools section */
 #tools {
-  background-color: #000000;
-  padding: 5% 15%;
+  padding: 3% 15%;
   color: #fff;
-  width: 100%;
 }
 
-.test-img {
-  width: 250px;
-  height: 250px;
-  margin: 20px;
+.tools-div {
+  padding-top : 70px;
+}
+
+.tools-img-div {
   text-align: center;
 }
 
-#testimonials-carousel {
-  text-align: center;
+.tools-img {
+  width: 200px;
+  height: 200px;
 }
 
 /* Contact section */
 #contact{
-  background-color: #fff;
-  color: black;
-  margin : auto;
+  margin: auto;
+  line-height: 2;
+  padding: 5% 10%;
+  color: #F1F1F1;
+}
+
+.chicken{
+  color: #14C38E;
+  padding-top: 40px;
 }
 
 .contact-me {
@@ -162,25 +173,34 @@ hr {
   line-height: 2;
 }
 
-.contact-heading {
-  margin-bottom: 30px;
+.btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  background: #14C38E;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #36E58E;
+  text-decoration: none;
+}
+
+.foot-img {
+  margin: 70px 15px 0 0;
+  color: #F1F1F1;
+}
+
+.foot-img:hover {
+  color: #00FFAB;
 }
 
 /* footer section */
 #footer {
-  padding: 5% 10%;
   text-align: center;
-  line-height: 3.5;
-  background-color: #000000;
-}
-
-.foot-img {
-  margin: 0 20px;
-  color: #fff;
-}
-
-.foot-img:hover {
-  color: #DFF6FF;
 }
 
 .copyright {
@@ -188,22 +208,33 @@ hr {
   font-family: 'Montserrat-Bold', sans-serif;
   font-size: 0.75rem;
   font-weight: lighter;
-  margin-top: 32px;
 }
 
-@media (max-width : 800px ) {
+/* scroll bar */
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #0e1630;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #00FFAB;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 3px solid #0e1630;  /* creates padding around scroll thumb */
+}
+
+
+@media (max-width : 1000px ) {
 
   #home {
-    padding: 2% 7% 7%;
-  }
-
-  .nav-item {
-    font-size: 1rem;
+    padding: 2% 7% 0;
   }
 
   .big-heading {
     font-size: 40px;
-    margin-top : 20px;
+    margin-top : 10px;
     padding-top : 20px;
   }
 
@@ -215,23 +246,55 @@ hr {
     font-size: 16px;
   }
 
-  .title-img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 200px;
-    width: 200px;
+  .home-img-div {
+    height: 16px;
+    width: 0;
   }
 
-  #work {
-    width : 80%;
+  #about {
+    padding: 0 5% 10%;
   }
 
-  #testimonials-carousel {
-    margin-top: 20px;
+  .dp-div {
+    text-align: center;
   }
 
-  p {
-    font-size: 16px;
+  .ProfPic-img {
+    margin-top: 0;
+    margin-bottom: 30px;
+    max-width: 60%;
   }
+
+  .work-text-div {
+    padding-top : 40px;
+  }
+
+  .tools-img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .tools-div {
+    padding-top : 40px;
+  }
+
+  .tools-img-div {
+    width: 50%;
+  }
+
+  #contact {
+    padding: 15% 10%;
+  }
+
+  .contact-div {
+    padding-top : 20px;
+    margin-bottom: 50px;
+  }
+
+  .chicken{
+    padding-top: 0;
+  }
+
+
 
 }
